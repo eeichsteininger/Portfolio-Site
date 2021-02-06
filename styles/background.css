@@ -1,0 +1,49 @@
+html, body {
+  margin: 0;
+}
+::-webkit-scrollbar{
+  width:1vw;
+  background: #efefef;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #2A2A2C;
+}
+::-webkit-scrollbar-track{
+  background-color: white;
+}
+body {
+  width: 50vw;
+  height: 100vh;
+  background-color: #F89D2A;
+}
+body:after {
+  content: ' ';
+  border-top: 100vh solid #2A2A2C;
+  border-right: 45vw solid transparent;
+  border-left: 45vw solid transparent;
+  width: 0;
+  position: absolute;
+  left: 4.5vw;
+}
+#mainbox
+{
+  position: absolute;
+  background: #efefef;
+  z-index: 1;
+  height: 70%;
+  width: 70%;
+  top: 15%;
+  left: 15%;
+  border: 2px solid #FCA325;
+}
+/**
+changing style according to screen width
+ */
+@media (max-width: 700px) {
+  ::-webkit-scrollbar{
+    width:2vw;
+  }
+  body:after {
+    left: 4vw;
+  }
+}

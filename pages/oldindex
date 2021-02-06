@@ -1,0 +1,47 @@
+<div id="buttonbox">
+      <!--A picture of me-->
+      <img id="profilepciture" src="../img/passfoto.png" height="664" width="443"/>
+      <!--Buttons for subpages-->
+      <a class="borderless" href="cv.html"><p>Meine Geschichte</p></a>
+      <a href="contact.html"><p>Schreiben Sie mir</p></a>
+    </div>
+    <div id="contentbox">
+      <!--Name-->
+      <h1>
+        Emil Eichsteininger
+      </h1>
+      <!--Profession-->
+      <h4>
+        Schüler an der HTL-Grieskirchen (4BHIF)
+      </h4>
+      <!--About me-->
+      <h2>
+        Ein bisschen etwas zu mir:
+      </h2>
+      <ul>
+        <li>Hobbys: Lesen (Hauptsächlich Fantasy & Philosophie), Sport (Bogenschießen, Fittnes, Laufen), Computerspiele (Overwatch, League of Legends, Minecraft)</li>
+        <li>Familie:</li>
+        <ul>
+          <li>Mutter: Inge Eichsteininger, BEd MSc (Psychotherapeutin und Supervisorin)</li>
+          <li>Vater: Dr. Alfred Stiglbauer (Ökonom)</li>
+          <li>Bruder: Victor Eichsteininger (3 Klasse Bundesgymnasium Ried)</li>
+        </ul>
+        <li>Sonstiges:</li>
+        <ul>
+          <li>Mitglied bei den Pfadfindern zur Volksschulzeit</li>
+          <li>Mitglied bei der Theater-Gruppe "Alles Kwatsch" an der NMS1 Ried</li>
+          <li>Erste Hilfe Kurs (2017)</li>
+        </ul>
+      </ul>
+      <!--My skillsets-->
+      <h2>
+        Meine Haupterfahrungsbereiche:
+      </h2>
+      <ul>
+        <li>Web-Technologien (HTML, CSS, JS)</li>
+        <li>App Entwicklung (Java, Android Studios)</li>
+        <li>Desktop Entwicklung (Java, C#)</li>
+        <li>Diverse technische Kenntnisse (Git, SQL, PL/SQL, Relationales Datenbank Design, Office, Unity)</li>
+        <li>Sonstige Kenntnisse (Englisch(B2), Betriebswirtschaftliche Kenntnisse, 10-Finger-Schreiben)</li>
+      </ul>
+    </div>

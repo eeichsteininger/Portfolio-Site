@@ -1,0 +1,120 @@
+#mainbox
+{
+  height: 200%;
+  min-height: 1200px;
+  margin-bottom: 15%;
+}
+.row
+{
+  height: 120px;
+  width: 95%;
+  margin-left: 10px;
+  float: left;
+  padding-top: 10px;
+}
+.decorationbox
+{
+  width: 20%;
+  height: 100%;
+}
+.aligner
+{
+  position: relative;
+  box-sizing: border-box;
+  float: left;
+}
+.circle
+{
+  height: 50px;
+  width: 100%;
+  min-width: 150px;
+  border-top-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+  background-color: #F89D2A;
+}
+.circle > p
+{
+  font-size: 20px;
+  width: 60%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+}
+.seperatorcontainer
+{
+  margin-top: 10px;
+  width: 120px;
+  height: 60px;
+}
+.seperator
+{
+  height: 100%;
+  width: 10px;
+  border-top-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+  background-color: #2A2A2C;
+  margin-left: 60px;
+}
+.rowcontent
+{
+  font-size: 17px;
+  margin-left: 20px;
+  width:70%;
+  height: 100%;
+}
+/**
+changing style according to screen width
+ */
+@media (max-width: 1000px) {/*make the text less wide*/
+  .rowcontent
+  {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 900px) {/*same here*/
+  .rowcontent
+  {
+    margin-left: 60px;
+    width: 65%;
+  }
+}
+@media (max-width: 700px)/*remove the black line put the text below the orange "circles" and maybe but some sort of sepperator below the text*/
+{
+  .row
+  {
+    height: 150px;
+  }
+  .seperator
+  {
+    visibility: hidden;
+    margin: 0;
+    height: 0;
+    width: 0;
+  }
+  .decorationbox
+  {
+    width: 100%;
+    height: 40%;
+  }
+  .rowcontent
+  {
+    width: 100%;
+    height: 60%;
+    margin-left: 0;
+  }
+  .rowcontent::after
+  {
+    content: "";
+    clear: both;
+    display: block;
+    height: 10px;
+    width: 100%;
+    margin-top: 10px;
+    border-bottom-left-radius: 90px;
+    border-top-right-radius: 90px;
+    background-color: #2A2A2C;
+  }
+}

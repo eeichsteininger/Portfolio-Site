@@ -1,0 +1,162 @@
+#mainbox
+{
+  height: auto;
+}
+#buttonbox
+{
+  position: absolute;
+  left: 0;
+  width: 20%;
+  height: 100%;
+}
+#profilepciture
+{
+  float: left;
+  width: 100%;
+  height: auto;
+}
+#buttonbox > a
+{
+  box-sizing: border-box;
+  border: #2A2A2C solid 2px;
+  height: 50px;
+  width: 100%;
+  position: relative;
+  float: left;
+}
+#buttonbox > .borderless
+{
+  border-bottom: 0;
+}
+#buttonbox > a > p
+{
+  width: 60%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+}
+#buttonbox > a:hover
+{
+  background-color: #2A2A2C;
+}
+#buttonbox > a:hover > p
+{
+  color: #efefef;
+}
+#buttonbox > a > p
+{
+  color: #2A2A2C;
+}
+#contentbox
+{
+  position: absolute;
+  right: 0;
+  width: 80%;
+  height: 100%;
+}
+#contentbox > *
+{
+  margin: 10px 10px 10px 10px;
+}
+
+#contentbox > div
+{
+  text-align: left;
+}
+h1
+{
+  text-align: center;
+}
+h2
+{
+  font-size: 20px;
+}
+h4
+{
+  text-align: center;
+  padding-left: 20px;
+}
+li{
+  margin-top: 5px;
+  font-size: 15px;
+}
+/**
+changing style according to screen width
+ */
+@media (max-width: 1200px)
+{
+  #mainbox
+  {
+    min-height: 550px;
+  }
+}
+@media (max-width: 1000px)
+{
+  #mainbox
+  {
+    min-height: 630px;
+  }
+}
+@media (max-width: 700px) {
+  #mainbox
+  {
+    height: 100%;
+    min-height: 1000px;
+  }
+  #buttonbox
+  {
+    width: 100%;
+    position: relative;
+    height: auto;
+    float: top;
+  }
+  #profilepciture
+  {
+    display: block;
+    float: top;
+    width: 50%;
+    margin-left: 25%;
+  }
+  #contentbox
+  {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 50%;
+  }
+
+}
+@media (max-width: 600px) {
+  #mainbox
+  {
+    height: 100%;
+    min-height: 1050px;
+  }
+  #profilepciture
+  {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+@media (max-width: 500px) {
+  #mainbox
+  {
+    height: 100%;
+    min-height: 1100px;
+  }
+  #profilepciture {
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+@media(max-width: 485px)
+{
+  #mainbox
+  {
+    min-height: 1200px;
+  }
+}
+

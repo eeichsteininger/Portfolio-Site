@@ -1,0 +1,138 @@
+*
+{
+  font-size: 16px;;
+}
+#mainbox
+{
+  height: auto;
+}
+.row
+{
+  height: auto;
+  width: 100%;
+  float: left;
+}
+.row::before
+{
+  top: 5px;
+  bottom: 80px;
+  position: absolute;
+  content: " ";
+  width: 6px;
+  border-radius: 5px;
+  background-color: #2A2A2C;
+  left: 50%;
+  margin-left: -3px;
+}
+.rightbox
+{
+  float: right;
+}
+.leftbox
+{
+  float: left;
+}
+.leftbox::before
+{
+  content: " ";
+  margin-top: 34px;
+  height: 6px;
+  left: 50%;
+  width: 3%;
+  margin-left: -3%;
+  border-radius: 5px;
+  background-color: #2A2A2C;
+  position: absolute;
+}
+.rightbox::before
+{
+  content: " ";
+  margin-top: 34px;
+  height: 6px;
+  left: 50%;
+  width: 3%;
+  border-radius: 5px;
+  background-color: #2A2A2C;
+  position: absolute;
+}
+.box
+{
+  width: 42%;
+  height: auto;
+  border: 2px solid #2A2A2C;
+  padding: 10px;
+  margin: 10px;
+}
+.box > h2
+{
+  text-align: center;
+  font-size: 24px;
+  margin: 10px;
+  border-bottom: solid 2px #2A2A2C;
+}
+.boxcontent
+{
+  margin:10px;
+}
+#bottombuttons
+{
+  height: auto;
+  width: 100%;
+  float: left;
+}
+#bottombuttons > a
+{
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 10px;
+  border: solid 2px #2A2A2C;
+  text-decoration: none;
+  color: #2A2A2C;
+}
+#bottombuttons > a:hover
+{
+  background-color: #2A2A2C;
+}
+#bottombuttons > a:hover > p
+{
+  color: #efefef;
+}
+.rightbutton
+{
+  float: right;
+}
+.leftbutton
+{
+  float: left;
+}
+/**
+changing style according to screen width
+ */
+@media (max-width: 1080px) {
+    .box
+    {
+      width: 70%;
+    }
+    .rightbox::before, .leftbox::before
+    {
+      width: 12%;
+      margin-left: -12%;
+      left: 90%;
+    }
+    .rightbox
+    {
+      float: left;
+    }
+    .row::before
+    {
+      left: 90%;
+    }
+}
+@media (max-width: 700px) {
+  .rightbox::before, .leftbox::before
+  {
+    width: 8%;
+    margin-left: -8%;
+  }
+}
