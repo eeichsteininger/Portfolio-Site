@@ -1,3 +1,14 @@
+*
+{
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #2A2A2C;
+}
+h1,h2,h3,h4,h5,h6
+{
+  font-family: 'Ubuntu';
+}
 html, body {
   margin: 0;
 }
@@ -32,9 +43,8 @@ body:after {
   z-index: 1;
   height: 70%;
   width: 70%;
-  top: 15%;
+  top: 10%;
   left: 15%;
-  border: 2px solid #FCA325;
 }
 /**
 changing style according to screen width
