@@ -1,0 +1,66 @@
+.center
+{
+  width: auto;
+  padding-left: 20px;
+  font-size: 30px;
+  margin-top: 40px;
+}
+#imagebox
+{
+  margin-top: 40px;
+  width: auto;
+  height: 128px;
+}
+#imagebox > a
+{
+  box-sizing: border-box;
+  text-decoration: none;
+  float: left;
+  width: 33.33%;
+}
+#imagebox > a > img
+{
+  height: 7em;
+  width: auto;
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#bottombuttons
+{
+  margin-top: 30px;
+  height: auto;
+  width: 100%;
+  float: left;
+}
+#bottombuttons > a
+{
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 10px;
+  border: solid 2px #2A2A2C;
+  text-decoration: none;
+  color: #2A2A2C;
+}
+#bottombuttons > a:hover
+{
+  background-color: #2A2A2C;
+}
+#bottombuttons > a:hover > p
+{
+  color: #efefef;
+}
+.rightbutton
+{
+  float: right;
+}
+.leftbutton
+{
+  float: left;
+}
+p > a
+{
+  text-decoration: none;
+}

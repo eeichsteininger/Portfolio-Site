@@ -41,7 +41,7 @@ body:after {
   position: absolute;
   background: #efefef;
   z-index: 1;
-  height: 70%;
+  height: auto;
   width: 70%;
   top: 10%;
   left: 15%;
