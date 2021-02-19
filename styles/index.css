@@ -3,7 +3,8 @@
   float: left;
   width: 20%;
   height: 100%;
-}#profilepciture
+}
+#profilepciture
  {
    float: left;
    width: 100%;
@@ -28,13 +29,15 @@
   text-align: center;
   padding: 5px;
 }
-#buttonbox > a:hover
- {
-   background-color: #2A2A2C;
- }
 #buttonbox > a > p
 {
   color: #2A2A2C;
+}
+* > a:hover
+{
+  color: #efefef;
+  background-color: #2A2A2C;
+  text-decoration: none;
 }
 #buttonbox > a:hover > p
 {
@@ -42,8 +45,8 @@
 }
 #contentbox
 {
-  /*make padding here but dont destroy the page*/
-  width: 80%;
+  width: 75%;
+  padding: 2.5%;
   height: 100%;
   float: right;
 }

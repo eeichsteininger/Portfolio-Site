@@ -1,7 +1,7 @@
 var app = document.getElementById('email');
 
 var typewriter = new Typewriter(app, {
-  delay: 75,
+  delay: 50,
 });
 
 typewriter

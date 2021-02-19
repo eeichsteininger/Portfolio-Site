@@ -19,7 +19,7 @@
 h1
 {
   text-align: center;
-  margin: 10px;
+  margin: 20px;
   border-bottom: 2px solid #2A2A2C;
 }
 .rightbox
@@ -72,40 +72,10 @@ h1
 {
   margin:10px;
 }
-#bottombuttons
-{
-  height: auto;
-  width: 100%;
-  float: left;
-}
-#bottombuttons > a
-{
-  width: auto;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin: 10px;
-  border: solid 2px #2A2A2C;
-  text-decoration: none;
-  color: #2A2A2C;
-}
-#bottombuttons > a:hover
-{
-  background-color: #2A2A2C;
-}
-#bottombuttons > a:hover > p
+p > a:hover
 {
   color: #efefef;
-}
-.rightbutton
-{
-  float: right;
-}
-.leftbutton
-{
-  float: left;
-}
-p > a
-{
+  background-color: #2A2A2C;
   text-decoration: none;
 }
 /**
