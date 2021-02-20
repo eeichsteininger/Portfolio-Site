@@ -1,17 +1,20 @@
-#buttonbox
-{
+#buttonbox {
   float: left;
   width: 20%;
   height: 100%;
+  top: 50%;
+  padding: 2.5% 0% 0% 2.5%;
 }
-#profilepciture
- {
-   float: left;
-   width: 100%;
-   height: auto;
- }
-#buttonbox > a
-{
+
+#profilepciture {
+  float: left;
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+#buttonbox > a {
   box-sizing: border-box;
   border: #2A2A2C solid 2px;
   height: auto;
@@ -19,82 +22,82 @@
   position: relative;
   float: left;
 }
-#buttonbox > .borderless
-{
+
+#buttonbox > .borderless {
   border-bottom: 0;
 }
-#buttonbox > a
-{
+
+#buttonbox > a {
   text-decoration: none;
   text-align: center;
   padding: 5px;
 }
-#buttonbox > a > p
-{
+
+#buttonbox > a > p {
   color: #2A2A2C;
 }
-* > a:hover
-{
+
+* > a:hover {
   color: #efefef;
   background-color: #2A2A2C;
   text-decoration: none;
 }
-#buttonbox > a:hover > p
-{
+
+#buttonbox > a:hover > p {
   color: #efefef;
 }
-#contentbox
-{
-  width: 75%;
+
+#contentbox {
+  width: 72.5%;
   padding: 2.5%;
   height: 100%;
   float: right;
 }
-#contentbox > *
-{
+
+#contentbox > * {
   margin: 10px;
 }
 
-#contentbox > div
-{
+#contentbox > div {
   text-align: left;
 }
-h1
-{
+
+h1 {
   text-align: center;
 }
-h2
-{
+
+h2 {
   font-size: 20px;
 }
-h4
-{
+
+h4 {
   text-align: center;
 }
-li{
+
+li {
   margin-top: 10px;
   font-size: 15px;
 }
+
 /**
 changing style according to screen width
  */
 @media (max-width: 700px) {
-  #buttonbox
-  {
+  #buttonbox {
     width: 100%;
     position: relative;
     height: auto;
     float: top;
   }
-  #profilepciture
-  {
+
+  #profilepciture {
     display: block;
     float: top;
     width: 50%;
     margin-left: 25%;
   }
-  #contentbox
-  {
+
+  #contentbox {
     position: relative;
     float: left;
     width: 100%;

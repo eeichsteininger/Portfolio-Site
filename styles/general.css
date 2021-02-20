@@ -43,6 +43,7 @@ body:after {
   z-index: 1;
   height: auto;
   width: 70%;
+  min-width: 300px;
   top: 10%;
   left: 15%;
 }
