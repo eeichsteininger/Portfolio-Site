@@ -25,7 +25,7 @@ html, body {
 body {
   width: 50vw;
   height: 100vh;
-  background-color: #F89D2A;
+  background-color: #4a95b5;
 }
 body:after {
   content: ' ';
@@ -44,7 +44,7 @@ body:after {
   height: auto;
   width: 70%;
   min-width: 300px;
-  top: 10%;
+  top: 5%;
   left: 15%;
 }
 

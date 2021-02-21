@@ -78,6 +78,13 @@ p > a:hover
   background-color: #2A2A2C;
   text-decoration: none;
 }
+footer
+{
+  float: left;
+  height: 30px;
+  width: 100%;
+  background-color: #4a95b5;
+}
 /**
 changing style according to screen width
  */
