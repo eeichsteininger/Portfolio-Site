@@ -10,7 +10,7 @@
   width: auto;
   padding-left: 10px;
   padding-right: 10px;
-  margin: 10px;
+  margin-bottom: 10px;
   border: solid 2px #2A2A2C;
   text-decoration: none;
   color: #2A2A2C;
@@ -26,8 +26,10 @@
 .rightbutton
 {
   float: right;
+  margin-right: 10px;
 }
 .leftbutton
 {
   float: left;
+  margin-left: 10px;
 }

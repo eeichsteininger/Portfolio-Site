@@ -87,15 +87,20 @@ changing style according to screen width
     position: relative;
     height: auto;
     float: top;
+    padding-left: 0;
   }
 
   #profilepciture {
     display: block;
     float: top;
-    width: 50%;
-    margin-left: 25%;
+    width: 70%;
+    margin-left: 15%;
   }
-
+  #buttonbox > a
+  {
+    width: 70%;
+    left: 15%;
+  }
   #contentbox {
     position: relative;
     float: left;

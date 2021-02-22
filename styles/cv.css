@@ -106,6 +106,8 @@ changing style according to screen width
     .row::before
     {
       left: 90%;
+      top: 75px;
+      bottom: 120px;
     }
 }
 @media (max-width: 700px) {
