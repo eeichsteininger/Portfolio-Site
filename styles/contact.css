@@ -1,3 +1,7 @@
+#mainbox
+{
+  min-width: 340px;
+}
 .center
 {
   width: auto;
@@ -27,6 +31,18 @@
   margin-left: auto;
   margin-right: auto;
 }
+#bottombuttons
+{
+  margin-bottom: 10px;
+}
+.leftbutton
+{
+  margin-left: 10px;
+}
+.leftbutton
+{
+  margin-right: 10px;
+}
 /**
 changing style according to screen width
  */
@@ -39,7 +55,6 @@ changing style according to screen width
   #bottombuttons > a
   {
     width: auto;
-    margin-right: auto;
-    margin-left: auto;
+
   }
 }

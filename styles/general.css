@@ -47,7 +47,13 @@ body:after {
   top: 5%;
   left: 15%;
 }
-
+footer
+{
+  float: left;
+  height: 30px;
+  width: 100%;
+  background-color: #4a95b5;
+}
 /**
 changing style according to screen width
  */
